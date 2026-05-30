@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>R S Men's Parlour</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, black, #1a1a1a);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid gold;
+}
+
+header h1 {
+    color: gold;
+    font-size: 40px;
+}
+
+/* NAVBAR */
+nav {
+    background: #1c1c1c;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1621605815971-fbc98d665033') no-repeat center/cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    background: rgba(0,0,0,0.7);
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+/* SECTION */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: gold;
+}
+
+/* CARDS */
+.card {
+    background: #1e1e1e;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 280px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px gold;
+}
+
+.card p {
+    margin: 6px 0;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px gold;
+}
+
+/* CONTACT */
+a {
+    color: gold;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.whatsapp a {
+    background: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 22px;
+    text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>R S Men's Parlour</h1>
+    <p>Royal Style • Perfect Look</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>Upgrade Your Style with Sultan Salon</h2>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>Our Services</h2>
+
+    <div class="card">
+        <h3>Hair Cuts ✂️</h3>
+        <p>Hair Cut – ₹130</p>
+        <p>Beard Trim – ₹80</p>
+        <p>Foam Shave – ₹80</p>
+        <p>Clean Shave – ₹60</p>
+        <p>Head Massage – ₹100</p>
+    </div>
+
+    <div class="card">
+        <h3>Spa 💆‍♂️</h3>
+        <p>Hair Spa – ₹500</p>
+        <p>Hair Straightening – ₹1500</p>
+        <p>Curly Hair – ₹1500</p>
+        <p>(Only Upper Hair)</p>
+    </div>
+
+    <div class="card">
+        <h3>Face Massage 🧴</h3>
+        <p>D-Tan Raga – ₹300</p>
+        <p>Tan Cleanup – ₹450</p>
+        <p>Choco Butter – ₹200</p>
+        <p>Dr. Rashel – ₹180</p>
+        <p>Papaya – ₹200</p>
+        <p>Olivia – ₹220</p>
+        <p>Sandal Facepack – ₹100</p>
+    </div>
+
+    <div class="card">
+        <h3>Scrub 🧼</h3>
+        <p>Joy – ₹200</p>
+        <p>Jovees – ₹250</p>
+    </div>
+
+    <div class="card">
+        <h3>Hair Colour 🎨</h3>
+        <p>Streax – ₹180</p>
+        <p>Garnier – ₹200</p>
+        <p>Matrix – ₹250</p>
+        <p>Loreal – ₹500</p>
+        <p>Gel Colour – ₹200</p>
+        <p>Nisha – ₹150</p>
+    </div>
+
+    <div class="card">
+        <h3 style="color:red;">🔥 Offer</h3>
+        <p>25% OFF</p>
+        <p>2, 3 & 4 March</p>
+        <p>Hair Wash FREE!</p>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+    <h2>Our Work</h2>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1">
+        <img src="https://i.pinimg.com/736x/a7/55/9d/a7559dcaef29b0e0d6822fce7ab4009c.jpg">
+        <img src="https://i.pinimg.com/originals/bb/0c/d2/bb0cd28be1bf04ad3dda4a56bf631857.jpg">
+        <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186">
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <div class="card">
+        <p>📞 Phone: 7309561190</p>
+
+        <p>📧 Email: 
+        <a href="mailto:rashidmansuri7841831031@gmail.com">
+        rashidmansuri7841831031@gmail.com
+        </a>
+        </p>
+
+        <p>📷 Instagram: 
+        <a href="https://www.instagram.com/mulet_cut" target="_blank">
+        @sultansalon
+        </a>
+        </p>
+
+        <p>💬 WhatsApp: 
+        <a href="https://wa.me/917309561190" target="_blank">
+        Chat Now
+        </a>
+        </p>
+
+        <p>📍 Location: 
+        <a href="https://maps.app.goo.gl/CobafBfE37mZgm118" target="_blank">
+        View on Map
+        </a>
+        </p>
+    </div>
+</section>
+
+<!-- WHATSAPP FLOAT -->
+<div class="whatsapp">
+    <a href="https://wa.me/917309561190" target="_blank">💬</a>
+</div>
+
+</body>
+</html>
